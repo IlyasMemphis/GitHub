@@ -1,0 +1,130 @@
+    1  git config --global user.name "Ilyas"
+    2  git config --global user.email "lukakupatadze124@gmail.com"
+    3  git init
+    4  git add
+    5  git add oboi.jpg
+    6  ssh/id_rsa ec2-user@linux.itcareerhub.de
+    7  cp
+    8  scp ec2-user@linux.itcareerhub.de:/opt/090924-wdm/tmp/file.txt /c/Users/Ilyas/Desktop/Git
+    9  scp ec2-user@linux.itcareerhub.de:/tmp/file.txt /c/Users/Ilyas/Desktop/Git
+   10  cd C:\Users\Ilyas\Desktop\Git\git-branch
+   11  mkdir git-branch
+   12  cd git-branch
+   13  git init
+   14  git checkout -b gitignore
+   15  git status
+   16  touch .gitignore
+   17  nano .gitignore 
+   18  git add .
+   19  git status 
+   20  git commit -m "Добавлен файл gitignore"
+   21  git remote add git@github.com:IlyasMemphis/git-branch.git
+   22  git push -u origin gitignore
+   23  git remote add origin git@github.com:IlyasMemphis/git-branch.git
+   24  git push -u origin gitignore
+   25  #!/bin/bash
+   26  directory="/opt/090924-wdm"
+   27  find "$directory" -name "*.sh" -exec chmod +x {} \;
+   28  chmod +x permission_checker.sh
+   29  ./permission_checker.sh
+   30  #!/bin/bash
+   31  directory="/opt/090924-wdm"
+   32  find "$directory" -name "*.sh" -exec chmod +x {} \;
+   33  chmod +x permission_checker.sh
+   34  ./permission_checker.sh
+   35  git clone git@github.com:Ilyas_Memphis/GitHub.git
+   36  cd C:\Users\Ilyas\Desktop\Git\GitHub
+   37  cd C:\Users\Ilyas\Desktop\Git
+   38  cd C:\Users\Ilyas\Desktop
+   39  ls
+   40  cd ~
+   41  ls
+   42  cd Desctop
+   43  cd Desktop
+   44  ls
+   45  cd Git
+   46  ls
+   47  cd GitHub
+   48  ls
+   49  git checkout -b feature
+   50  git init
+   51  git checkout -b feature
+   52  git add .
+   53  git clone git@github.com:IlyasMemphis/GitHub.git
+   54  cd ~/Desktop/Git
+   55  git clone git@github.com:IlyasMemphis/GitHub.git
+   56  git checkout -b feature
+   57  git add .
+   58  git status
+   59  cd GitHub
+   60  git init
+   61  git checkout -b feature
+   62  git status
+   63  cd ~/Desktop/Git
+   64  git clone git@github.com:IlyasMemphis/GitHub.git
+   65  git clone git@github.com:IlyasMemphis/GitHub.git
+   66  ls
+   67  git clone git@github.com:IlyasMemphis/GitHub.git
+   68  touch .gitignore
+   69  touch README.md
+   70  ls
+   71  rm .gitignore
+   72  rm README.md
+   73  cd GitHub
+   74  touch .gitignore
+   75  touch README.md
+   76  ls
+   77  ls -a
+   78  git status
+   79  git add .
+   80  git commit -m 'Added README and .gitignore'
+   81  git checkout -b
+   82  git checkout -b feature
+   83  git push origin feature 
+   84  git commit --amend -m "Added README and .gitignore ammend"
+   85  git checkout main 
+   86  git merge feature
+   87  cd ~/Desktop/Git
+   88  ls
+   89  git clone git@github.com:IlyasMemphis/GitHub.git
+   90  git init
+   91  git status
+   92  git status
+   93  cd Github
+   94  cd GitHub
+   95  cd ~/Desktop/Git
+   96  ls
+   97  git clone git@github.com:IlyasMemphis/GitHub.git
+   98  cd GitHub
+   99  git status
+  100  touch README.md
+  101  touch .gitignore
+  102  git add .
+  103  git commit -m 'Added 2 files'
+  104  git push origin feature
+  105  git checkout -b feature
+  106  git push origin feature
+  107  git commit --amend 'Added 2 files ammend'
+  108  git commit --amend -m 'Added 2 files ammend'
+  109  git checkout main
+  110  git merge feature
+  111  cd ~/Desktop/Git
+  112  ls
+  113  git clone git@github.com:IlyasMemphis/GitHub.git
+  114  cd GitHub
+  115  touch .gitignore 
+  116  git status
+  117  git add .
+  118  git commit -m 'Added 1 files'
+  119  git checkout -b feature
+  120  git push feature
+  121  git push origin feature
+  122  git commit --amend -m 'Added 1 file ammend'
+  123  git checkout main
+  124  git merge feature
+  125  touch history 
+  126  history >> history
+  127  cat history
+  128  git status
+  129  git add .
+  130  history >> history.txt
